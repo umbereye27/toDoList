@@ -1,0 +1,48 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <section>
+     <div class="intro-section">
+        <h1 class="intro-title">
+            <span class="small-text"><strong style="color: rgb(2, 118, 27);">CREATE</strong> YOUR</span><br>
+            <span class="big-text">TO-DO LIST <strong style="color: rgb(2, 118, 27);">NOW!</strong></span>
+        </h1>
+        
+    </div>
+    <div class="main-container">
+        <div class="app-section">
+            <div class="todo-container">
+                <div class="todo-header">
+                    <h2>ToDo List</h2>
+                    <img src="/image/images (1).png" height="40px" />
+               </div>
+                
+                <div class="todo-form">
+                    <input type="text" class="todo-input" placeholder="Add your task" id="new-todo">
+                    <button class="add-btn" id="add-todo">+</button>
+                </div>
+                
+                <div class="success-message" id="success-message"></div>
+                
+                <ul class="todo-list" id="todo-list">
+                    <!-- todolist here -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    </section>
+     
+
+    <script src="index.js"></script>
+</body>
+</html>
